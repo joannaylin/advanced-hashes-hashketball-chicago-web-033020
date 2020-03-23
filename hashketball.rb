@@ -173,7 +173,7 @@ def player_stats(wanted_player)
             data.each do |stats|
             if stats[:player_name] == wanted_player
               i = 1
-              while i < stats[:player_name]length
+              while i < stats[:player_name].length
                 result[stats][i]
                 i += 1
               end
