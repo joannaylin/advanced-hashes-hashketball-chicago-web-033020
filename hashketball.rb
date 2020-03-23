@@ -192,7 +192,7 @@ def big_shoe_rebounds
         attributes[:players].each do |data|
           if data[:shoe] > max_shoe
             max_shoe = data[:shoe]
-            number_rebounds = players[:rebounds]
+            number_rebounds = data[:rebounds]
     end
   end
 end
