@@ -183,7 +183,7 @@ def player_stats(wanted_player)
   result
 end
 
-def big_shoe_rebounds 
+def big_shoe_rebounds
   number_rebounds = 0
   max_shoe = 0
 
