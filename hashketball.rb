@@ -174,7 +174,6 @@ def player_stats(wanted_player)
             if stats[:player_name] == wanted_player
               i = 1
               while i < stats.length
-                binding.pry
                 result[stats][i]
                 binding.pry
                 i += 1
