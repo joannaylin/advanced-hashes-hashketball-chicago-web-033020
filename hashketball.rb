@@ -184,5 +184,7 @@ def player_stats(wanted_player)
 end
 
 def big_shoe_rebounds 
+  number_rebounds = 0
+  max_shoe = 0
 
 end
