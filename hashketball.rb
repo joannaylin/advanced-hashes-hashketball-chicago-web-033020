@@ -176,6 +176,7 @@ def player_stats(wanted_player)
               while i < stats.length
                 binding.pry
                 result[stats][i]
+                binding.pry
                 i += 1
               end
             end
