@@ -192,7 +192,7 @@ def big_shoe_rebounds
         max_shoe = player[:shoe]
         number_rebounds = player[:rebounds]
     end
-
   end
-
+end
+number_rebounds
 end
