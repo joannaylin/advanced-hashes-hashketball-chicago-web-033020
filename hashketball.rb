@@ -172,10 +172,9 @@ def player_stats(wanted_player)
           if attributes == :players
             data.each do |stats|
             if stats[:player_name] == wanted_player
-              i = 1
-              while i < stats.length
-                result = stats[i] 
-                i += 1
+                result = stats.delete_if do |key, value|
+                  key == :player_name
+              end
               end
             end
           end
