@@ -180,6 +180,5 @@ def player_stats(wanted_player)
           end
         end
       end
-    end
   result
 end
