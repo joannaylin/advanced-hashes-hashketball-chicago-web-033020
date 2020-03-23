@@ -172,7 +172,8 @@ def player_stats(wanted_player)
           if attributes == :players
             data.each do |stats|
             if stats[:player_name] == wanted_player
-          
+              i = 1
+              while i < stats[:player_name]
               end
             end
           end
