@@ -184,6 +184,5 @@ def player_stats(wanted_player)
 end
 
 def big_shoe_rebounds 
-  
-end
 
+end
