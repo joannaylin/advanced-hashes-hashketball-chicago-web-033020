@@ -174,7 +174,7 @@ def player_stats(wanted_player)
             if stats[:player_name] == wanted_player
               i = 1
               while i < stats.length
-                
+                result[stats.collect]
                 i += 1
               end
             end
